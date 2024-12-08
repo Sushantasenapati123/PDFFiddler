@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDFiddler", "PDFiddler\PDFiddler.csproj", "{6CF01912-D4F7-484B-B2B7-B19D90D61296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{7C8C39BD-46B6-4042-8574-130425FDE73B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CF01912-D4F7-484B-B2B7-B19D90D61296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF01912-D4F7-484B-B2B7-B19D90D61296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF01912-D4F7-484B-B2B7-B19D90D61296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF01912-D4F7-484B-B2B7-B19D90D61296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8C39BD-46B6-4042-8574-130425FDE73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8C39BD-46B6-4042-8574-130425FDE73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8C39BD-46B6-4042-8574-130425FDE73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8C39BD-46B6-4042-8574-130425FDE73B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6804BE03-4933-4A95-8453-144248212902}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<button onclick="downloadPDF()">Download PDF</button>
+
+<script>
+    function downloadPDF() {
+      
+        fetch('/Home/DownloadPDF')
+            .then(response => response.blob())  
+            .then(blob => {
+                
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = 'OutputForm.pdf'; 
+                link.click(); 
+            })
+            .catch(error => {
+                console.error('Error downloading the file:', error);
+            });
+    }
+</script>
